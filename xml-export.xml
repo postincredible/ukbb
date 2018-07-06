@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography">
+  <b:Source>
+    <b:Tag>wolfe-pincus-2003-the-assessment-of-rheumatoid-arthritis-and-the-acceptability-of-self-report-questionnaires-in-clinical-practice</b:Tag>
+    <b:SourceType>JournalArticle</b:SourceType>
+    <b:Title>The assessment of rheumatoid arthritis and the acceptability of self-report questionnaires in clinical practice</b:Title>
+    <b:Year>2003</b:Year>
+    <b:RefOrder>1</b:RefOrder>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Frederick</b:First>
+            <b:Last>Wolfe</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Theodore</b:First>
+            <b:Last>Pincus</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Ann K.</b:First>
+            <b:Last>Thompson</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Joseph</b:First>
+            <b:Last>Doyle</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+    </b:Author>
+    <b:JournalName>Arthritis &amp; Rheumatism</b:JournalName>
+    <b:StandardNumber>10.1002/art.10904</b:StandardNumber>
+  </b:Source>
+</b:Sources>

@@ -1,8 +1,8 @@
-# ukbb project
+# UKBB project
 
-components in this project:
+Components in this project:
 
-1) preprocessing ukbb standard and HES data
+1) Preprocessing ukbb standard and HES data
   
   a) load data by vairable and restructure the raw dataframe into workable dataframe
   
@@ -10,7 +10,7 @@ components in this project:
   
   c) ICD9/10 code scan
 
-2) generate target population
+2) Generate target population
   
   a) get type 2 diabetes (T2D) target population  
   

@@ -5,7 +5,8 @@ import pandas as pd
 import numpy as np
 
 pth=os.getcwd()
-rel_var_path=pth.split('code')[0]+'disease/'
+spliter=pth.split('/')[-1]
+rel_var_path=pth.split(spliter)[0]+'disease/'
 rel_var_path
 
 def load_data_by_fid(fid):

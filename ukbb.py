@@ -10,7 +10,7 @@ rel_var_path=pth.split(spliter)[0]+'disease/'
 rel_var_path
 
 def load_data_by_fid(fid):
-    df_tab1_i0_comp=pd.read_csv('/oasis/scratch/comet/yhuan162/temp_project/ukbb/data/i0/ukb22598_i0_comp.csv')
+    df_tab1_i0_comp=pd.read_csv('/temp_project/ukbb/data/i0/ukb22598_i0_comp.csv')
 
     if int(fid) in df_tab1_i0_comp.fid.values.tolist():
         fid_num=fid
@@ -20,7 +20,7 @@ def load_data_by_fid(fid):
         var_type_list=['con','cur','dat','int','tex','tim','cas','cam']
         var_type_list_full=['Continuous','Curve','Date','Integer','Text','Time','Categorical (single)', 'Categorical (multiple)']
 
-        path_p1='/oasis/scratch/comet/yhuan162/temp_project/ukbb/data/i0/var_'
+        path_p1='/temp_project/ukbb/data/i0/var_'
 
         if var_type in var_type_list_full:
             vtyp=var_type_list[var_type_list_full.index(var_type)]
@@ -47,7 +47,7 @@ def load_data_by_fid(fid):
         print('fid not found, please try again')
 
         
-df_tab1_i0_comp=pd.read_csv('/oasis/scratch/comet/yhuan162/temp_project/ukbb/data/i0/ukb22598_i0_comp.csv')
+df_tab1_i0_comp=pd.read_csv('/temp_project/ukbb/data/i0/ukb22598_i0_comp.csv')
 
 def cd_path(path):
     """
